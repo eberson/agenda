@@ -1,4 +1,8 @@
-# Instalando as Biblioteca
+# Agenda
+
+Projeto destinado ao estudo de C# com MVC na escola Etec Sylvio de Mattos Carvalho
+
+# Instalando as Bibliotecas
 
 Uma vez que estamos, na escola, utilizando a DotNet Core 2.1, devemos indicar a versão das bibliotecas:
 
