@@ -26,9 +26,11 @@ dotnet ef dbcontext scaffold "Server=localhost;DataBase=agenda;Uid=root" MySql.D
 
 Onde :
 
+```
 dotnet ef dbcontext - comando
 "Server=localhost;DataBase=agenda;Uid=root" - a string de conexão do banco de dados usado
 MySql.Data.EntityFrameworkCore -  o provedor do banco de dados
 -o Models - a pasta de sáida das classes geradas
 -f - sobrescreve um código anteriormente gerado
 -c DemoDbContext - o nome do DbContext usado na aplicação
+```
