@@ -2,7 +2,7 @@
 
 Projeto destinado ao estudo de C# com MVC na escola Etec Sylvio de Mattos Carvalho
 
-# Instalando as Bibliotecas
+## Instalando as Bibliotecas
 
 Uma vez que estamos, na escola, utilizando a DotNet Core 2.1, devemos indicar a versão das bibliotecas:
 
@@ -20,7 +20,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Mysql.Data.EntityFrameworkCore
 ```
 
-# Criação dos Modelos e Classes de Conexão
+## Criação dos Modelos e Classes de Conexão
 
 Execute o comando:
 
