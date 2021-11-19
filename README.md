@@ -10,6 +10,8 @@ Uma vez que estamos, na escola, utilizando a DotNet Core 2.1, devemos indicar a 
 dotnet add package Microsoft.EntityFrameworkCore -v 2.1.14
 dotnet add package Microsoft.EntityFrameworkCore.Design -v 2.1.14
 dotnet add package Mysql.Data.EntityFrameworkCore -v 6.10.9
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 2.1.10
+dotnet add package Microsoft.VisualStudio.Web.CodeGenerators.Mvc -v 2.1.10
 ```
 
 Caso estejam utilizando a última versão do DotNet Core basta utilizar os comandos sem informar a versão (para pegar a mais recente):
@@ -18,6 +20,8 @@ Caso estejam utilizando a última versão do DotNet Core basta utilizar os coman
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Mysql.Data.EntityFrameworkCore
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.VisualStudio.Web.CodeGenerators.Mvc
 ```
 
 ## Criação dos Modelos e Classes de Conexão
