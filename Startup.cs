@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using agenda.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace agenda
 {
@@ -29,6 +31,11 @@ namespace agenda
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddDbContext<AgendaContext>(options => 
+            {
+                options.UseMySql("server=localhost;port=3306;database=agenda;user=root");
             });
 
 
